@@ -3,11 +3,12 @@ spring:
     name: fj-hw-9
 
 application:
-  categories-url: https://kudago.com/public-api/v1.4/place-categories
-  locations-url: https://kudago.com/public-api/v1.4/locations
-  events-url: https://kudago.com/public-api/v1.4/events
+  categories-url: "https://kudago.com/public-api/v1.4/place-categories"
+  locations-url: "https://kudago.com/public-api/v1.4/locations"
+  events-url: "https://kudago.com/public-api/v1.4/events"
+  currencies-url: "http://www.cbr.ru/scripts/XML_daily.asp"
 
-  dictionary-init-task-schedule: 1s
+  dictionary-init-task-schedule: 15m
   fixed-thread-pool-size: 6
   scheduled-thread-pool-size: 1
 
